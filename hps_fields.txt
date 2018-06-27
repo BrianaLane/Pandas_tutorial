@@ -1,0 +1,58 @@
+#
+#   VizieR Astronomical Server vizier.u-strasbg.fr
+#    Date: 2018-06-27T02:57:00 [V1.99+ (14-Oct-2013)]
+#   In case of problem, please report to:	cds-question@unistra.fr
+#
+#
+#Coosys	J2000:	eq_FK5 J2000
+#INFO	votable-version=1.99+ (14-Oct-2013)	
+#INFO	-ref=VIZ5b32fcc458f7	
+#INFO	-out.max=50	
+#INFO	queryParameters=21	
+#-oc.form=dec
+#-out.max=50
+#-order=I
+#-out.src=J/ApJS/192/5/table2
+#-nav=cat:J/ApJS/192/5&tab:{J/ApJS/192/5/table2}&key:source=J/ApJS/192/5/table2&HTTPPRM:&&-ref=VIZ5b32fcc458f7&-out.max=50&-out.form=HTML Table&-oc.form=sexa&-c.eq=J2000&-c.r=  2&-c.u=arcmin&-c.geom=r&-order=I&-out=Field&-out=RAJ2000&-out=DEJ2000&-out=E(B-V)&-out=Filt&-out=f_Filt&-out=Seeing&-out=Stack&-out=BandK&-out=Depth&-out=Area&-file=.&-meta.ucd=2&-meta=1&-meta.foot=1&-usenav=1&-bmark=POST&-out.src=J/ApJS/192/5/table2
+#-c.eq=J2000
+#-c.r=  2
+#-c.u=arcmin
+#-c.geom=r
+#-source=J/ApJS/192/5/table2
+#-out=Field
+#-out=RAJ2000
+#-out=DEJ2000
+#-out=E(B-V)
+#-out=Filt
+#-out=f_Filt
+#-out=Seeing
+#-out=Stack
+#-out=BandK
+#-out=Depth
+#-out=Area
+#
+
+#RESOURCE=yCat_21920005
+#Name: J/ApJS/192/5
+#Title: Emission-line galaxies from HETDEX pilot survey (Adams+, 2011)
+#Table	J_ApJS_192_5_table2:
+#Name: J/ApJS/192/5/table2
+#Title: Ancillary broadband imaging properties
+#Column	Field	(A9)	Field name (1)	[ucd=obs.field]
+#Column	RAJ2000	(A8)	Central hour of right ascension (J2000)	[ucd=pos.eq.ra;meta.main]
+#Column	DEJ2000	(A9)	Central degree of declination (J2000)	[ucd=pos.eq.dec;meta.main]
+#Column	E(B-V)	(F6.3)	Galactic extinction value	[ucd=phot.color.excess]
+#Column	Filt	(a27)	Filters	[ucd=meta.code;instr.filter]
+#Column	f_Filt	(A1)	[a] Flag for u filter	[ucd=meta.code]
+#Column	Seeing	(F5.2)	The worst seeing FWHM to which all bands are matched	[ucd=instr.obsty.seeing]
+#Column	Stack	(A9)	Filters combined to form the detection image	[ucd=instr.saturation;obs.image]
+#Column	BandK	(A4)	The band chosen for Kron aperture measurement	[ucd=instr.bandpass]
+#Column	Depth	(F4.1)	The 5{sigma} limit in AB magnitudes for a point source in a 2" aperture for the band with the Kron aperture measurement	[ucd=instr.sensitivity]
+#Column	Area	(F4.1)	Visible Integral-field Replicable Unit Spectrograph Prototype (VIRUS-P) area	[ucd=phys.area;instr]
+Field	RAJ2000	DEJ2000	E(B-V)	Filt	f_Filt	Seeing	Stack	BandK	Depth	Area
+ 	"h:m:s"	"d:m:s"	mag	 	 	arcsec	 	 	 	arcmin2
+---------	--------	---------	------	---------------------------	-	-----	---------	----	----	----
+COSMOS   	10 00 30	+02 15 04	 0.018	u,B_J_,V_J_,r',i',z'       	a	 1.33	B_J_r'i' 	V_J_	26.5	71.6
+GOODS-N  	12 36 51	+62 12 51	 0.012	U_J_,B_J_,V_J_,R_J_,I_J_,z'	 	 1.26	B_J_R_J_I	V_J_	26.6	35.5
+MUNICS-S2	03 06 41	+00 01 15	 0.083	B_J_,g',i',z'              	 	 0.99	B_J_g'i' 	g'  	25.8	49.9
+XMM-LSS  	02 21 20	-04 30 00	 0.027	u,g',r',i',z'              	a	 0.97	g'r'i'   	g'  	25.8	12.3
